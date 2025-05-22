@@ -12,3 +12,25 @@ body{
 img:hover{
   content:url('F716D170-6678-4C16-8874-687DD7516AC8.JPG');
 }
+nav{
+  list-style-type: none;
+  width: 100%;
+  background-color: #58641D;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li a{
+  color: #DBD2E0;
+  text-decoration:none;
+  display: block;
+  float: left;
+  padding: 15px 50px;
+}
+
+li a:hover{
+  background-color: #7B904B;
+  color: #DBD2E0
+  
+}
